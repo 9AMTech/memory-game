@@ -1,26 +1,31 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { useState, useEffect, FC } from "react";
+import { VillagerData } from "./Context";
+import Game from "./components/Game";
+import "./App.css";
 
-function App() {
+const App: FC = () => {
+  const [villagerData, setVillagerData] = useState({});
+
+  useEffect(() => {
+
+		const acnhApi = async () => {
+			// let defaultURL: string = URL ?? "https://acnhapi.com/v1/villagers/";
+			const response = await fetch('https://acnhapi.com/v1/villagers/');
+			const data = await response.json();
+			setVillagerData(data);
+		}
+
+		acnhApi();
+  }, []);
+	
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <VillagerData.Provider value={villagerData}>
+        <Game />
+      </VillagerData.Provider>
     </div>
   );
-}
+};
 
 export default App;
