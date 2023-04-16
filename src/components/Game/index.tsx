@@ -34,6 +34,7 @@ export default function Game() {
 
 			// Rearranging villagers
 			let newVillagerArray = shuffle([...villagerData]);
+			setVillagerData(newVillagerArray);
 		}
 		else {
 			// Deduct One Life
