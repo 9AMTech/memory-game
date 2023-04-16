@@ -1,0 +1,18 @@
+:root {
+	
+	/* Viewport Variables */
+	--tablet: 768px;
+	--laptop: 1024px;
+	--desktop: 1200px;
+}
+* {
+	padding: 0;
+	margin: 0;
+}
+/* .video-wrapper {
+	width: 100vw;
+} */
+
+body {
+	background-color: wheat;
+}

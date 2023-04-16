@@ -2,4 +2,6 @@
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-evenly;
+	place-items: center;
+	margin: 10vh 4vw;
 }

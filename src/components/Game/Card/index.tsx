@@ -1,9 +1,11 @@
 import CardCSS from './card.module.css'
+import { MouseEvent } from 'react'
 
 interface CardProps {
-	id: number,
-	name: string,
-	image: string,
+	id?: number,
+	name?: string,
+	image?: string,
+	onClick(event:MouseEvent): any,
 }
 
 export default function Card (props:CardProps) {
