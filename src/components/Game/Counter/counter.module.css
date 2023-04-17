@@ -1,0 +1,14 @@
+.lives img {
+	width: 40px;
+	height: 40px;
+}
+
+.bellsContainer {
+	display: flex;
+	place-content: space-between;
+}
+
+.inactive {
+	opacity: 20%;
+	transition: opacity .7s;
+}

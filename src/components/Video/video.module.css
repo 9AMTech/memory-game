@@ -1,6 +1,6 @@
 video {
-	/* position: fixed; */
-	width: 100%;
-	margin-left: 20vw;
+	width: 135vw;
+	height: 45vh;
 	z-index: -1;
+	object-fit: fill;
 }

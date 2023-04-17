@@ -3,5 +3,28 @@
 	flex-wrap: wrap;
 	justify-content: space-evenly;
 	place-items: center;
-	margin: 10vh 4vw;
+	margin: 0 4vw;
+}
+
+.brewsterSpeechContainer {
+	text-align: center;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 23vh;
+	margin: 0 auto;
+	z-index: 1000;
+	/* background-color: salmon;	 */
+}
+
+.brewsterSpeechContainer img {
+	margin: 0 auto;
+	width: 85%;
+	height: 100%;
+}
+
+.menuContainer {
+	display: flex;
+	flex-direction: column-reverse;
+	place-items: center;
 }

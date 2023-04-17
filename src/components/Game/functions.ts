@@ -37,28 +37,28 @@ const parseVillagers = (selectedVillagers: number[], data: any): Villager[] => {
 };
 
 const isNewVillager = (villagerIDs: number[], clickedPortraitID: number) => {
-  let isNewVillager = true;
-  let matched = villagerIDs.filter((element) => element === clickedPortraitID)
-  if (matched.length === 0) isNewVillager = false;
+  let isNewVillager = false;
+  let matched = villagerIDs.filter((element) => element === clickedPortraitID);
+  if (matched.length === 0) isNewVillager = true;
   return isNewVillager;
 };
 
 // Fisher-Yates Shuffle https://bost.ocks.org/mike/shuffle/
-const shuffle = (array:Villager[]) => {
-	let m = array.length;
-	let t;
-	let i;
+const shuffle = (array: Villager[]) => {
+  let m = array.length;
+  let t;
+  let i;
 
-	// While there are elements to shuffle
-	while(m) {
-		// Pick a remaining element.
-		i = Math.floor(Math.random() * m--);
-		t = array[m];
-		array[m] = array[i];
-		array[i] = t;
-	}
-	
-	return array;
-} 
+  // While there are elements to shuffle
+  while (m) {
+    // Pick a remaining element.
+    i = Math.floor(Math.random() * m--);
+    t = array[m];
+    array[m] = array[i];
+    array[i] = t;
+  }
+
+  return array;
+};
 
 export { generateVillagers, parseVillagers, isNewVillager, shuffle };

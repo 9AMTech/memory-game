@@ -1,18 +1,30 @@
 :root {
 	
+	
 	/* Viewport Variables */
 	--tablet: 768px;
 	--laptop: 1024px;
 	--desktop: 1200px;
 }
+
+@font-face {
+	font-family: "humming";
+	src: url('./assets/fonts/humming.otf');
+}
+
+@font-face {
+	font-family: "bokutoh";
+	src: url('./assets/fonts/FOT-RodinBokutoh\ Pro\ EB.otf');
+}
+
 * {
 	padding: 0;
 	margin: 0;
+	font-family: "humming";
+	font-size: 17px;
 }
-/* .video-wrapper {
-	width: 100vw;
-} */
 
 body {
 	background-color: wheat;
+	overflow: hidden;
 }

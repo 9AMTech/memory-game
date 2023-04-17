@@ -4,7 +4,6 @@ import { generateVillagers, parseVillagers } from "./components/Game/functions";
 import type { Villager } from "./components/Game";
 import Game from "./components/Game";
 import Video from "./components/Video";
-import bgVideo from "./assets/videos/PerfectLoop.mp4";
 import "./App.css";
 
 const App: FC = () => {
@@ -18,7 +17,6 @@ const App: FC = () => {
       setVillagerData(data);
       setVillagers(parseVillagers(generateVillagers(), data));
     };
-
     acnhApi();
   }, []);
 
