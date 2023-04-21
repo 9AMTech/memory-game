@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/memory-game/static/css/main.2dfa3b0a.css",
-    "main.js": "/memory-game/static/js/main.6623e070.js",
+    "main.css": "/memory-game/static/css/main.2794a51d.css",
+    "main.js": "/memory-game/static/js/main.980d7204.js",
     "static/js/787.69b12325.chunk.js": "/memory-game/static/js/787.69b12325.chunk.js",
     "static/media/humming.otf": "/memory-game/static/media/humming.6bda2b93c98f4dacca10.otf",
     "static/media/FOT-RodinBokutoh Pro EB.otf": "/memory-game/static/media/FOT-RodinBokutoh Pro EB.391597ea44593031ef64.otf",
@@ -9,12 +9,12 @@
     "static/media/PerfectLoop.mp4": "/memory-game/static/media/PerfectLoop.789b067c82b25e9b78c6.mp4",
     "static/media/bell-bag.png": "/memory-game/static/media/bell-bag.9210641e549824d2f218.png",
     "index.html": "/memory-game/index.html",
-    "main.2dfa3b0a.css.map": "/memory-game/static/css/main.2dfa3b0a.css.map",
-    "main.6623e070.js.map": "/memory-game/static/js/main.6623e070.js.map",
+    "main.2794a51d.css.map": "/memory-game/static/css/main.2794a51d.css.map",
+    "main.980d7204.js.map": "/memory-game/static/js/main.980d7204.js.map",
     "787.69b12325.chunk.js.map": "/memory-game/static/js/787.69b12325.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2dfa3b0a.css",
-    "static/js/main.6623e070.js"
+    "static/css/main.2794a51d.css",
+    "static/js/main.980d7204.js"
   ]
 }
