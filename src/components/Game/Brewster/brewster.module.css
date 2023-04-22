@@ -8,3 +8,13 @@
 	width: 65%;
 	font-size: 13px;
 }
+
+@media only screen and (min-width: 1000px) {
+  .message {
+		top: 9.5vh;
+		left: 9vw;
+		height: 52%;
+		width: 65%;
+		font-size: 19px;
+  }
+}

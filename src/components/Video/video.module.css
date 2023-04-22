@@ -1,6 +1,13 @@
 video {
 	width: 135vw;
-	height: 45vh;
+	height: 42vh;
 	z-index: -1;
 	object-fit: fill;
+}
+
+@media only screen and (min-width: 1000px) {
+  video {
+		width: 135vw;
+		height: 100vh;
+  }
 }

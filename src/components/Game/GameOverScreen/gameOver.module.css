@@ -1,0 +1,34 @@
+.resetButton {
+	padding: 15px;
+	border-radius: 15px;
+	background-color: #f0d000;
+	color: #6b5c43;
+}
+
+.message {
+	background-color: wheat;
+	color: black;
+	border: 5px solid black;
+	border-radius: 50px;
+	font-size: 25px;
+	padding: 5%;
+	margin: 0 5vh;
+}
+
+.gameOverSectionWrapper {
+	background-color: rgba(1, 1, 1, 60%);
+	display: flex;
+	flex-direction: column;
+	gap: 30vh;
+	place-items: center;
+	justify-content: center;
+	position: absolute;
+	z-index: 100000000;
+	top: 0;
+	left: 0;
+	height: 100vh;
+	width: 100vw;
+}
+
+@media only screen and (min-width: 1000px) {
+}

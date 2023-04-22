@@ -5,5 +5,6 @@ interface BrewsterProps {
 }
 
 export default function Brewster(props: BrewsterProps) {
+	
   return <p className={BrewsterCSS.message}>{props.message}</p>;
 }
