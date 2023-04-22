@@ -4,7 +4,7 @@ An Animal Crossing New Horizons themed memory game! It's made entirely in React 
 **Link to project:** 9amtech.github.io/memory-game/ <br>
 **Project Requirements:** https://www.theodinproject.com/lessons/node-path-javascript-memory-card#assignment
 
-![Thumbnail for the restaurant project.](https://github.com/9AMTech/memory-game/blob/main/thumbnail.png?raw=true)
+![Thumbnail for the restaurant project.](https://github.com/9AMTech/memory-game/blob/master/thumbnail.png?raw=true)
 
 ## How It's Made:
 
