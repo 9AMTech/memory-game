@@ -1,12 +1,16 @@
-video {
+.video {
 	width: 135vw;
 	height: 42vh;
 	z-index: -1;
 	object-fit: fill;
 }
 
+.videoWrapper {
+	overflow-x: hidden;
+}
+
 @media only screen and (min-width: 1000px) {
-  video {
+  .video {
 		width: 135vw;
 		height: 100vh;
   }
